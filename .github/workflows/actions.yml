@@ -12,6 +12,7 @@ jobs:
           ls 
       - name: Checkout
         uses: actions/hello-world-javascript-action@main
+      - name: List Files after Checkout
         run: |
           pwd
           ls 
