@@ -16,6 +16,7 @@ jobs:
         run: |
           import platform
           print(platform.processor())
+          print(platform.system())
         shell: python
 
   run-windows-command:
@@ -27,3 +28,4 @@ jobs:
       - name: Directory Bash
         run: pwd
         shell: bash
+
